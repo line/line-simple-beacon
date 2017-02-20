@@ -2,6 +2,10 @@
 
 LINE Simple Beacon is a specification for beacon hardware for LINE Bot developers.
 
+## Security limitations
+
+LINE Simple Beacon does not have a mechanism for preventing devices from being impersonated. Therefore, do not use bot services which automatically assumes that a beacon's ID is valid.
+
 ## Specification
 
 [English](README.en.md)
