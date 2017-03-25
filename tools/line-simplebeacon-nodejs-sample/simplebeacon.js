@@ -35,14 +35,14 @@ const args = argv.option([{
   type: 'string',
   example: "'--hwid=c0d10ad7f8'"
 }, {
-  name: 'device-data',
+  name: 'device-message',
   description: '[OPTIONAL] 2 .. 26 digits of hexadecimal number.',
   type: 'string',
-  example: "'--device-data=ff'"
+  example: "'--device-message=ff'"
 }]).run();
 
 const HWID = args.options['hwid'];
-const DEVICE_MESSAGE = args.options['device-data'] || '00';
+const DEVICE_MESSAGE = args.options['device-message'] || '00';
 
 bleno.on('stateChange', function (state) {
   console.log('stateChange: ' + state);
