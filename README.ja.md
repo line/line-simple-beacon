@@ -109,7 +109,8 @@ LINE Simple Beacon Frameは、デバイスを識別するための情報を含�
 | Measured TxPower | Fixed Length | 1byte    | ``0x7F``のみ使用可                            |
 | Device Message   | Variable Length | 1~13byte | 開発者が自由に使うことができます。LINEアプリがビーコンデバイスを発見した際に、HWIDなどとともにLINEサーバに通知されます。<br>Device Messageを使用しない場合は`0x00`を指定してください。何も指定がない場合はイベントが通知されません。 |
 
-今後、BotアカウントがWebhook経由でDevice Messageを受け取れるようにする予定です。温度や気圧、電池の残量といった、ビーコンデバイスの状態を受け取りたいときにご活用ください。(現在まだWebhookで受け取ることはできません)
+Device Messageは、Messaging APIによりLINEサーバを通じてBotに通知されます。
+温度や気圧、電池の残量といった、ビーコンデバイスの状態を受け取りたいときにご活用ください。
 
 ## Disclaimer and copyright notice
 - 利用者は、本注意事項に同意することを条件として、本仕様を利用することができます。
