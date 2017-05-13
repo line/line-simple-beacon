@@ -101,7 +101,8 @@ LINE Simple Beacon Frame is the variable-length data which contains the informat
 | Measured TxPower | Fixed Length | 1 byte    | Only ``0x7F`` can be used                           |
 | Device Message   | Variable Length | 1–13 bytes | Can be used freely by developers. When the LINE application detects a beacon, the HWID and other properties are passed to the LINE server.<br>Set value as `0x00` if the "Device Message" property is not used. No event will be sent if no value is set. |
 
-We plan to make it possible for bot accounts to receive "Device Message" via webhooks at a later date. Use this to receive information from the beacon such as temperature, air pressure, and battery remaining. (Webhooks currently can't be used to receive information.)
+"Device Message" is notified to your bot account via LINE server with the Messaging API. Use this to receive information from the beacon such as temperature, air pressure, and battery remaining.
+
 
 ## Disclaimer and copyright notice
 - The user agrees to the following conditions upon use of the LINE Simple Beacon specification ("the Specification").
