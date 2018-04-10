@@ -15,3 +15,7 @@ LINE Simple Beacon does not have a mechanism for preventing devices from being i
 
 * Sample Bluetooth Host application for LINE Simple Beacon written in Node.js.<br/>
   [tools/line-simplebeacon-nodejs-sample](tools/line-simplebeacon-nodejs-sample)
+
+## 3rd Party Tools
+
+Developing something relates to LINE Simple Beacon? Feel free to get in touch with [us](<mailto:dl_developer_relations@linecorp.com>) to share it here.
