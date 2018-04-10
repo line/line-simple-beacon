@@ -19,3 +19,7 @@ LINE Simple Beacon does not have a mechanism for preventing devices from being i
 ## 3rd Party Tools
 
 Developing something relates to LINE Simple Beacon? Feel free to get in touch with [us](<mailto:dl_developer_relations@linecorp.com>) to share it here.
+
+| Link | Description | Publisher | License | Stars |
+| ---- | ---- | ---- | ---- | ---- |
+| https://github.com/pizayanz/pxt-linebeacon | LINE Beacon implementation for micro:bit | hisayan | MIT | ![stars](http://githubbadges.com/star.svg?repo=pxt-linebeacon&user=pizayanz) |
