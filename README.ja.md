@@ -1,7 +1,7 @@
 # LINE Simple Beacon
 LINE Simple Beaconとは、LINE Bot開発者向けのビーコンデバイス仕様です。
 LINE Simple BeaconはBluetooth Low Energy (以下、「BLE」という)の仕様にもとづいており、
-汎用のデバイスで[LINE Beacon](https://devdocs.line.me/ja/#line-beacon)のサービスを利用することを可能とします。
+汎用のデバイスで[LINE Beacon](https://developers.line.biz/ja/docs/messaging-api/using-beacons/)のサービスを利用することを可能とします。
 
 ## Security limitation
 LINE Simple Beaconは、デバイスのなりすましを抑制するメカニズムが存在していません。

@@ -1,5 +1,5 @@
 # LINE Simple Beacon
-LINE Simple Beacon is a specification for beacon hardware for LINE bot developers. LINE Simple Beacon is based on the Bluetooth Low Energy (BLE) specification and lets developers use the [LINE Beacon](https://devdocs.line.me/en/#line-beacon) service on regular devices.
+LINE Simple Beacon is a specification for beacon hardware for LINE bot developers. LINE Simple Beacon is based on the Bluetooth Low Energy (BLE) specification and lets developers use the [LINE Beacon](https://developers.line.biz/en/docs/messaging-api/using-beacons/) service on regular devices.
 
 ## Security limitations
 LINE Simple Beacon does not have a mechanism for preventing devices from being impersonated. Therefore, do not use bot services which automatically assumes that a beacon's ID is valid.
