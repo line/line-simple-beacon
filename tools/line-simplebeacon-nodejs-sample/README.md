@@ -5,12 +5,13 @@ Control local Bluetooth LE Controller to advertise LINE Simple Beacon's packet.
 
 ## SUPPORTED PLATFORM
 
-* macOS Sierra on Apple's Computer with Bluetooth LE
+* macOS 10.12 - 10.13 on Apple's Computer with Bluetooth LE
+  * ⚠️ Currently, not work on 10.14 (Mojave) or later. See this [issue](https://github.com/line/line-simple-beacon/issues/9)
 * Raspbian Jessie on Raspberry PI 3
 
 ## PRE-REQUIRED
 
-### macOS Sierra
+### macOS
 
 * install [Xcode](https://itunes.apple.com/ca/app/xcode/id497799835?mt=12)
 * install [Node.js v6.x.x+](https://nodejs.org/)
