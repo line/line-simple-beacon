@@ -23,3 +23,6 @@ Developing something relates to LINE Simple Beacon? Feel free to get in touch wi
 | Link | Description | Publisher | License | Stars |
 | ---- | ---- | ---- | ---- | ---- |
 | https://github.com/pizayanz/pxt-linebeacon | LINE Beacon implementation for micro:bit | hisayan | MIT | ![stars](http://githubbadges.com/star.svg?repo=pxt-linebeacon&user=pizayanz) |
+| https://github.com/9wick/obniz-line-simple-beacon | LINE Beacon library for obniz | 9wick | MIT | ![stars](http://githubbadges.com/star.svg?repo=obniz-line-simple-beacon&user=9wick) |
+
+
