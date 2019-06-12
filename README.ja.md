@@ -102,11 +102,11 @@ LINE Simple Beacon Frameは、デバイスを識別するための情報を含�
 バイナリ長は8～20byteです。マルチバイトデータのバイトオーダーはBig-endianです。
 次に示す情報が順番に格納されます。これらは全て必須項目です。
 
-| Property         | Data type    | Size     | Description                              |
-| ---------------- | ------------ | -------- | ---------------------------------------- |
-| Frame Type       | Fixed Length | 1byte    | ``0x02``のみ使用可                            |
-| HWID             | Fixed Length | 5byte    | ビーコンデバイスの識別ID。<br>HWIDはデバイスごとに指定してください。自身のBotアカウントに対して発行されたHWID以外は使わないでください。<br>HWIDは、[LINE OFFICIAL ACCOUNT MANAGERページ](https://admin-official.line.me/beacon/register)から発行できます。 |
-| Measured TxPower | Fixed Length | 1byte    | ``0x7F``のみ使用可                            |
+| Property         | Data type       | Size     | Description                              |
+| ---------------- | ----------------| -------- | ---------------------------------------- |
+| Frame Type       | Fixed Length    | 1byte    | ``0x02``のみ使用可                       |
+| HWID             | Fixed Length    | 5byte    | ビーコンデバイスの識別ID。<br>HWIDはデバイスごとに指定してください。自身のBotアカウントに対して発行されたHWID以外は使わないでください。<br>HWIDは、LINE OFFICIAL ACCOUNT MANAGERページから発行できます。<br><ul><li>「LINE公式アカウント」の場合は[こちら](https://manager.line.biz/beacon/register)</li><li>「LINE@アカウント」など、[旧管理画面](https://admin-official.line.me/)を使っている場合は[こちら](https://admin-official.line.me/beacon/register)</li></ul> |
+| Measured TxPower | Fixed Length    | 1byte    | ``0x7F``のみ使用可                       |
 | Device Message   | Variable Length | 1~13byte | 開発者が自由に使うことができます。LINEアプリがビーコンデバイスを発見した際に、HWIDなどとともにLINEサーバに通知されます。<br>Device Messageを使用しない場合は`0x00`を指定してください。何も指定がない場合はイベントが通知されません。 |
 
 Device Messageは、Messaging APIによりLINEサーバを通じてBotに通知されます。
