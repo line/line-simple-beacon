@@ -11,5 +11,10 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/line/line-simple-beacon.git",
+    "directory": "tools/line-simplebeacon-nodejs-sample"
   }
 }
