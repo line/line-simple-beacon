@@ -97,7 +97,7 @@ LINE Simple Beacon Frame is the variable-length data which contains the informat
 | Property         | Data type       | Size       | Description                              |
 | ---------------- | --------------- | ---------- | ---------------------------------------- |
 | Frame Type       | Fixed Length    | 1 byte     | Only ``0x02`` can be used                |
-| HWID             | Fixed Length    | 5 bytes    | ID of beacon device<br>Set an HWID for each device. Do not use HWIDs other than the HWIDs issued for your own bot account.<br>HWIDs are issued through the LINE Official Account Manager.<br><ul><li>Click [here](https://manager.line.biz/beacon/register) if you are using "LINE official account"</li><li>Click [here](https://admin-official.line.me/beacon/register) if you are using the account managed with [the legacy management page](https://admin-official.line.me/) such as "LINE @ account"</li></ul> |
+| HWID             | Fixed Length    | 5 bytes    | ID of beacon device<br>Set an HWID for each device. Do not use HWIDs other than the HWIDs issued for your own bot account.<br>HWIDs are issued through the [LINE Official Account Manager](https://manager.line.biz/beacon/register). |
 | Measured TxPower | Fixed Length    | 1 byte     | Only ``0x7F`` can be used                |
 | Device Message   | Variable Length | 1–13 bytes | Can be used freely by developers. When the LINE application detects a beacon, the HWID and other properties are passed to the LINE server.<br>Set value as `0x00` if the "Device Message" property is not used. No event will be sent if no value is set. |
 
