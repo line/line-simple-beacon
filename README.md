@@ -22,7 +22,7 @@ Developing something relates to LINE Simple Beacon? Feel free to get in touch wi
 
 | Link | Description | Publisher | License | Stars |
 | ---- | ---- | ---- | ---- | ---- |
-| https://github.com/pizayanz/pxt-linebeacon | LINE Beacon implementation for micro:bit | hisayan | MIT | ![stars](http://githubbadges.com/star.svg?repo=pxt-linebeacon&user=pizayanz) |
-| https://github.com/9wick/obniz-line-simple-beacon | LINE Beacon library for obniz | 9wick | MIT | ![stars](http://githubbadges.com/star.svg?repo=obniz-line-simple-beacon&user=9wick) |
-| https://github.com/taichunmin/line-simplebeacon-esp32 | LINE Beacon Sample for esp32 | taichunmin | MIT | ![stars](http://githubbadges.com/star.svg?repo=line-simplebeacon-esp32&user=taichunmin) |
-| https://github.com/taichunmin/line-simplebeacon-linkit7697 | LINE Beacon Sample for linkit7697 | taichunmin | MIT | ![stars](http://githubbadges.com/star.svg?repo=line-simplebeacon-linkit7697&user=taichunmin) |
+| https://github.com/pizayanz/pxt-linebeacon | LINE Beacon implementation for micro:bit | hisayan | MIT | ![stars](https://img.shields.io/github/stars/pizayanz/pxt-linebeacon) |
+| https://github.com/9wick/obniz-line-simple-beacon | LINE Beacon library for obniz | 9wick | MIT | ![stars](https://img.shields.io/github/stars/9wick/obniz-line-simple-beacon) |
+| https://github.com/taichunmin/line-simplebeacon-esp32 | LINE Beacon Sample for esp32 | taichunmin | MIT | ![stars](https://img.shields.io/github/stars/taichunmin/line-simplebeacon-esp32) |
+| https://github.com/taichunmin/line-simplebeacon-linkit7697 | LINE Beacon Sample for linkit7697 | taichunmin | MIT | ![stars](https://img.shields.io/github/stars/taichunmin/line-simplebeacon-linkit7697) |
