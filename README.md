@@ -15,7 +15,7 @@ LINE Simple Beacon does not have a mechanism for preventing devices from being i
 
 ## 3rd Party Tools
 
-Developing something relates to LINE Simple Beacon? Feel free to get in touch with [us](<mailto:dl_developer_relations@linecorp.com>) to share it here.
+Developing something related to LINE Simple Beacon? [Open a GitHub issue](https://github.com/line/line-simple-beacon/issues/new) to suggest adding it to this list.
 
 | Link | Description | Publisher | License | Stars |
 | ---- | ---- | ---- | ---- | ---- |

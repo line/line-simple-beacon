@@ -40,7 +40,7 @@ Bluetooth Hostは、次に示すようなAdvertising dataを構築し、BLE Cont
 * AD Type: Flags
   * Value: `0x00`ではない値。デバイスの特性に応じて適切な値を設定してください
 * AD Type: Service UUIDs
-  * 16bit Service UUID: `0xFE6F`。LINEによって提供されるBluetoothサービスのための UUIDです。
+  * 16bit Service UUID: `0xFE6F`。LINEヤフー株式会社によって提供されるBluetoothサービスのための UUIDです。
 * AD Type: Service Data
   * 16bit Service UUID: `0xFE6F`。SERVICE UUIDsと対応します。
   * Service Data: LINE Simple Beacon Frame
@@ -69,11 +69,11 @@ Byte<br/> Offset | Example 1<br/> Value |Example 2<br/> Value | Description
  2 | `0x06` | `0x06` |  LE General Discoverable Mode(2)<br/>とBR/EDR Not Supported(4)
  3 | `0x03` | `0x03` |  データ長
  4 | `0x03` | `0x03` |  Complete list of 16-bit UUIDs availableを意味するAD type<br/>(BLUETOOTH SPECIFICATION Version 4.0 [Vol 3], Part C Section 18.2)
- 5 | `0x6F` | `0x6F` |  16-bit UUID for LINE corp
+ 5 | `0x6F` | `0x6F` |  16-bit UUID for LY Corporation
  6 | `0xFE` | `0xFE` |  (同上)
  7 | `0x17` | `0x0E` |  データ長
  8 | `0x16` | `0x16` |  Service Dataを意味するAD type<br/>(BLUETOOTH SPECIFICATION Version 4.0 [Vol 3], Part C Section 18.10)
- 9 | `0x6F` | `0x6F` |  16-bit UUID for LINE corp
+ 9 | `0x6F` | `0x6F` |  16-bit UUID for LY Corporation
 10 | `0xFE` | `0xFE` |  (同上)
 11 | `0x02` | `0x02` |  LINE Simple Beacon FrameのFrame Type
 12 | `0x32` | `0x8A` |  LINE Simple Beacon FrameのHWID
@@ -114,12 +114,12 @@ Device Messageは、Messaging APIによりLINEサーバを通じてBotに通知�
 
 ## Disclaimer and copyright notice
 - 利用者は、本注意事項に同意することを条件として、本仕様を利用することができます。
-- LINE Beaconサービス（LINE Simple Beaconに関するものを含む）は、事前の通知なく、内容の全部又は一部を変更・停止・終了させる場合があり、それに伴い、本仕様がLINE Beaconサービスに準拠しなくなる可能性がございます。なお、LINE株式会社（以下「当社」）は本仕様をアップデートする義務を負いません。
+- LINE Beaconサービス（LINE Simple Beaconに関するものを含む）は、事前の通知なく、内容の全部又は一部を変更・停止・終了させる場合があり、それに伴い、本仕様がLINE Beaconサービスに準拠しなくなる可能性がございます。なお、LINEヤフー株式会社（以下「当社」）は本仕様をアップデートする義務を負いません。
 - 当社は、当社が必要と判断する場合、あらかじめ通知することなく、いつでも本仕様の内容を変更し又は本仕様を非公開にすることができます。
 - 本仕様の再配布・改変しての配布等を無断で行うことは禁止します。
 - 本仕様を、LINE Simple Beaconの用途以外には利用しないでください。
 - 当社は、本仕様に事実上又は法律上の瑕疵（安全性、信頼性、正確性、完全性、有効性、特定の目的への適合性、セキュリティなどに関する欠陥、エラーやバグ、権利侵害などを含みます）がないことを明示的にも黙示的にも保証しておりません。当社は、かかる瑕疵を除去して本仕様を公開する義務を負いません。
 - 当社は、本仕様に起因して利用者又は第三者に生じたあらゆる損害について一切の責任を負いません。
-- `0xFE6F` は、LINEによって提供されるBluetoothサービスのための UUIDです。他の用途で利用しないでください。
+- `0xFE6F` は、LINEヤフー株式会社によって提供されるBluetoothサービスのための UUIDです。他の用途で利用しないでください。
 - Bluetoothは、Bluetooth SIG,Inc.の商標または登録商標です。
 - LINE BeaconおよびLINE Simple Beaconは、当社の商標または登録商標です。
