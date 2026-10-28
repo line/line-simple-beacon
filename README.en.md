@@ -36,7 +36,7 @@ Bluetooth Host consists of the following advertising data which must be passed t
 * AD Type: Flags
   * Value: Cannot have a value of `0x00`. Set an appropriate value based on the characteristics of the device.
 * AD Type: Service UUIDs
-  * 16bit Service UUID: `0xFE6F`. UUID to provide the Bluetooth service through LINE.
+  * 16bit Service UUID: `0xFE6F`. UUID for the Bluetooth service provided by LY Corporation.
 * AD Type: Service Data
   * 16bit Service UUID: `0xFE6F`. Supports service UUIDs.
   * Service Data: LINE Simple Beacon Frame
@@ -63,11 +63,11 @@ Byte<br/> Offset | Example 1<br/> Value |Example 2<br/> Value | Description
  2 | `0x06` | `0x06` |  LE General Discoverable Mode (2)<br/>BR/EDR Not Supported (4)
  3 | `0x03` | `0x03` |  Data length
  4 | `0x03` | `0x03` |  AD type for the complete list of 16-bit UUIDs available<br/>(BLUETOOTH SPECIFICATION Version 4.0 [Vol 3], Part C Section 18.2)
- 5 | `0x6F` | `0x6F` |  16-bit UUID for LINE corp
+ 5 | `0x6F` | `0x6F` |  16-bit UUID for LY Corporation
  6 | `0xFE` | `0xFE` |  (Same as above)
  7 | `0x17` | `0x0E` |  Data length
  8 | `0x16` | `0x16` |  AD type for Service Data<br/>(BLUETOOTH SPECIFICATION Version 4.0 [Vol 3], Part C Section 18.10)
- 9 | `0x6F` | `0x6F` |  16-bit UUID for LINE corp
+ 9 | `0x6F` | `0x6F` |  16-bit UUID for LY Corporation
 10 | `0xFE` | `0xFE` |  (Same as above)
 11 | `0x02` | `0x02` |  Frame Type of the LINE Simple Beacon Frame
 12 | `0x32` | `0x8A` |  HWID of LINE Simple Beacon
@@ -106,12 +106,12 @@ LINE Simple Beacon Frame is the variable-length data which contains the informat
 
 ## Disclaimer and copyright notice
 - The user agrees to the following conditions upon use of the LINE Simple Beacon specification ("the Specification").
-- As all or part of the LINE Beacon service (including all items related to LINE Simple Beacon) may change or be dicsontinued at any time without prior notice, it is possible that the Specification may not be compatible with the LINE Beacon service. Also, LINE Corporation ("the Company") is not obligated to keep the Specification updated.
+- As all or part of the LINE Beacon service (including all items related to LINE Simple Beacon) may change or be dicsontinued at any time without prior notice, it is possible that the Specification may not be compatible with the LINE Beacon service. Also, LY Corporation ("the Company") is not obligated to keep the Specification updated.
 - The Company may, at its discretion, change or remove the contents of the Specification at any time without prior notice.
 - The Specification may not be redistributed or modified.
 - The Specification shall not be used for any other purpose other than those stated in LINE Simple Beacon.
 - The Company does not explicitly or implicitly guarantee that the Specification does not contain any factual or legal errors (including compatibility issues regarding security, reliability, completeness, and effectiveness; security-related defects; errors and bugs; and any rights infringements). The Company is not obligated to remove any such errors in the Specification.
 - The Company is not responsible for any damages to the user or a third party that arise from the specification.
-- `0xFE6F` is a UUID used for the Bluetooth service provided by LINE and may not be used for any other purpose.
+- `0xFE6F` is a UUID used for the Bluetooth service provided by LY Corporation and may not be used for any other purpose.
 - Bluetooth is a trademark or a registered trademark of Bluetooth SIG, Inc.
 - LINE Beacon and LINE Simple Beacon are trademarks or registered trademarks of the Company.
