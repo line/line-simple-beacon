@@ -23,3 +23,4 @@ Developing something related to LINE Simple Beacon? [Open a GitHub issue](https:
 | https://github.com/9wick/obniz-line-simple-beacon | LINE Beacon library for obniz | 9wick | MIT | ![stars](https://img.shields.io/github/stars/9wick/obniz-line-simple-beacon) |
 | https://github.com/taichunmin/line-simplebeacon-esp32 | LINE Beacon Sample for esp32 | taichunmin | MIT | ![stars](https://img.shields.io/github/stars/taichunmin/line-simplebeacon-esp32) |
 | https://github.com/taichunmin/line-simplebeacon-linkit7697 | LINE Beacon Sample for linkit7697 | taichunmin | MIT | ![stars](https://img.shields.io/github/stars/taichunmin/line-simplebeacon-linkit7697) |
+| https://github.com/roga/lite-line-simple-beacon | LINE Beacon broadcaster for Linux and macOS (ESP32 required on macOS) | roga | Not specified | ![stars](https://img.shields.io/github/stars/roga/lite-line-simple-beacon) |
